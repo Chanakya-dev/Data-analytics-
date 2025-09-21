@@ -101,42 +101,7 @@
 
 ---
 
-## **6. Statistical Functions**
-
-* **Purpose:** Analyze data statistically.
-* **Common Functions:**
-
-  1. `COUNT(range)` → Counts numbers
-  2. `COUNTA(range)` → Counts non-empty cells
-  3. `COUNTIF(range, criteria)` → Count based on condition
-  4. `COUNTIFS(range1, criteria1, range2, criteria2…)` → Multiple conditions
-  5. `AVERAGEIF(range, criteria, [average_range])` → Conditional average
-
----
-
-## **7. Error Handling Functions**
-
-* **Purpose:** Handle errors in formulas.
-* **Common Functions:**
-
-  1. `IFERROR(formula, value_if_error)` → Handle any error
-
-     * Example: `=IFERROR(F2/G2,0)`
-  2. `IFNA(formula, value_if_na)` → Handle #N/A
-
-     * Example: `=IFNA(VLOOKUP(101,A2:D20,2,FALSE),"Not Found")`
-
----
-
-## **8. Financial Functions** *(Optional for HR/Payroll datasets)*
-
-* `PMT(rate, nper, pv)` → Loan/Payment calculation
-* `FV(rate, nper, pmt)` → Future value
-* `NPV(rate, values)` → Net Present Value
-
----
-
-## **9. Tips for Using Functions**
+## **6. Tips for Using Functions**
 
 * Always start with `=`
 * Use **cell references** instead of fixed numbers
@@ -147,7 +112,7 @@
 
 ---
 
-## **10. Mini Exercises – Functions**
+## **7. Mini Exercises – Functions**
 
 1. Calculate **Total Salary** → `=SUM(F2:G2)`
 2. Calculate **Average Salary** → `=AVERAGE(F2:F11)`
